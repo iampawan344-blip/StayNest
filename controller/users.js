@@ -32,7 +32,7 @@ module.exports.signup=async (req, res, next) => {
 
                     req.flash(
                         "success",
-                        "Welcome to Wanderlust!"
+                        "Welcome to StayNest!"
                     );
 
                     return res.redirect(
@@ -66,7 +66,7 @@ module.exports.signup=async (req, res, next) => {
 
         req.flash(
             "success",
-            "Welcome to Wanderlust! You are logged in!"
+            "Welcome to  StayNest! You are logged in!"
         );
 
         const redirectUrl =

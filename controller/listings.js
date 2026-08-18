@@ -8,9 +8,6 @@ const geocodingClient = mbxGeocoding({
 });
 
 
-// ===============================
-// INDEX + SEARCH + CATEGORY
-// ===============================
 
 module.exports.index = async (req, res) => {
 
@@ -31,18 +28,13 @@ module.exports.index = async (req, res) => {
   let filter = {};
 
 
-  // ===============================
-  // CATEGORY FILTER
-  // ===============================
+
 
   if (validCategories.includes(category)) {
     filter.category = category;
   }
 
 
-  // ===============================
-  // SEARCH FILTER
-  // ===============================
 
   if (search && search.trim() !== "") {
 
