@@ -1,0 +1,304 @@
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 1rem;
+}
+
+.f-info-links {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-right: 1rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info {
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* =========================
+   LISTING CARDS
+========================= */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.listing-card .card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 20rem;
+    object-fit: cover !important;
+}
+
+.listing-card .card-body {
+    padding: 0;
+}
+
+.listing-card .card-text {
+    font-weight: 400 !important;
+}
+
+.listing-card .card-img-overlay {
+    opacity: 0;
+}
+
+.listing-card .card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: #222222;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* =========================
+   SHOW PAGE
+========================= */
+
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* =========================
+   MAP
+========================= */
+
+#map {
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   TAX TOGGLE
+========================= */
+
+.tax-toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+
+    /* HR ke just neeche */
+    margin-top: 0;
+    padding-top: 0;
+
+    /* Listings se thoda gap */
+    margin-bottom: 1rem;
+}
+
+
+/* Switch */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+
+/* Hide original checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* Slider background */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+/* Sliding circle */
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    top: 3px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    transition: 0.3s;
+}
+
+
+/* ON */
+
+.switch input:checked + .slider {
+    background-color: #fe424d;
+}
+
+
+/* Circle moves right */
+
+.switch input:checked + .slider::before {
+    transform: translateX(22px);
+}
+
+
+/* =========================
+   GST
+========================= */
+
+.tax-info {
+    display: none;
+}
+
+
+/* =========================
+   SEARCH BUTTON
+========================= */
+
+.btn-search {
+    background-color: #fe424d !important;
+    color: white !important;
+    border: 1px solid #fe424d !important;
+
+    width: 45px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Search icon */
+
+.btn-search i {
+    font-size: 1rem;
+}
+
+
+/* Search hover */
+
+.btn-search:hover {
+    background-color: #d9363e !important;
+    color: white !important;
+    border-color: #d9363e !important;
+}
+
+
+/* Search focus */
+
+.btn-search:focus {
+    background-color: #fe424d !important;
+    color: white !important;
+    border-color: #fe424d !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================
+   HR
+========================= */
+
+hr {
+    margin-bottom: 0;
+}
