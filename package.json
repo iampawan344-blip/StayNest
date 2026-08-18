@@ -1,7 +1,6 @@
-{
-  "engines":{
-       "node":"v26.5.0"
-  },
+{"engines": {
+  "node": "22.x"
+},
   "name": "majorproject",
   "version": "1.0.0",
   "description": "",
@@ -17,7 +16,7 @@
   "type": "commonjs",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.2",
-    "cloudinary": "^2.10.0",
+"cloudinary":"1.41.3",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^6.0.0",
     "cookie": "^2.0.1",
